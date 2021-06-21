@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARTstudio</title>
+    <link rel="icon" href="art/images/icon.png" type="image/png">
+    <link rel="stylesheet" href="art/styles.css" type="text/css">
+    <script src="art/js/jquery.js" type="text/javascript"></script>
+    <script src="art/js/script.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="txt">
+    <h2>JOJO Ajax Image Gallery</h2>
+    <p>Click on the images below</p>
+</div>
+<div class="strelkaleft" onclick="" id="k1">&lsaquo;</div>
+<div class="koleso">
+    <div class="row">
+        <div class="column">
+            <img src="art/images/jojo/1.gif" id="img0" alt="GIF" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="art/images/jojo/2.jpg" id="img1" alt="JPG" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="art/images/jojo/3.gif" id="img2" alt="GIF" onclick="openImg(this);">
+        </div>
+        <div class="column">
+            <img src="art/images/jojo/4.jpg" id="img3" alt="JPG" onclick="openImg(this);">
+        </div>
+    </div>
+</div>
+<div class="strelkaright" onclick="" id="k2">&rsaquo;</div>
+<div class="container">
+    <span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span>
+    <img id="expandedImg" alt="Povtor">
+    <div id="imgtext"></div>
+</div>
+</body>
+</html>

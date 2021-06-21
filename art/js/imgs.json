@@ -1,0 +1,12 @@
+{
+  "imgs": [{
+    "name": "pikachu.png",
+    "url": "../easy/index.html"
+  }, {
+    "name": "aska.jpg",
+    "url": "../normal/index.html"
+  }, {
+    "name": "Jolyne.jpg",
+    "url": "../hard/index.html"
+  }]
+}
